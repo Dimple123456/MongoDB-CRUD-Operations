@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="/stylesheet/style.css">
+</head>
+<body>
+    <div class="main_div">
+
+
+        <div class="read_users">
+            <a class="read_link" href="/read">Read Users</a>
+        </div>
+
+        <h1 id="create_h1">Update User</h1>
+
+       
+        <div class="form">
+
+            <form action="/update/<%= users._id %>" method="post">
+
+                <input type="text" name="name" placeholder="name" value="<%= users.name %>">
+                <input type="email" name="email" placeholder="email" value="<%= users.email %>">
+                <input type="text" name="image" placeholder="image url" value="<%= users.image %>">
+                <input class="submit" type="submit" value="Update User">
+    
+            </form>
+
+        </div>
+       
+         
+    </div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    background: #343437;
+}
+
+/* home route */
+.form{
+    padding: 80px;
+    
+
+}
+
+input{
+    padding: 10px 25px 10px 25px;
+    margin: 10px;
+    background: transparent;
+    color: white;
+    
+}
+
+.submit{
+    background: rgb(59, 59, 230);
+    padding: 15px 30px 15px 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.read_link{
+    text-decoration: none;
+    color: #FFA726;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+
+#create_h1{
+    /* padding: 30px; */
+    padding-left: 85px;
+    padding-top: 40px;
+    letter-spacing: 1px;
+}
+
+input[type="text"], input[type="email"], input[type="text"] {
+    border: 3px solid #61616a; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="text"]::placeholder {
+    color: #a1a1aa; /* Placeholder color */
+    font-size: 15px; /* Larger placeholder font size */
+    font-weight: bold; /* Optional: Make the placeholder bold */
+    opacity: 1; /* Ensures visibility across browsers */
+}
+
+.read_users{
+    padding-top: 40px;
+    padding-left: 90px;
+}
+
+
+/* read route */
+.home_link{
+    text-decoration: none;
+    color: #FFA726;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.back_to_home{
+    padding-top: 40px;
+    padding-left: 90px;
+}
+
+.read_h1{
+    padding-left: 85px;
+    padding-top: 40px;
+    letter-spacing: 1px;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 345px;
+    min-height: 50px;
+    background:rgb(224, 145, 145);
+    padding: 20px;
+    margin: 40px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.image-url {
+    width: 300px;           /* Width of the container */
+    height: 300px;          /* Set the fixed height */
+    margin: 0 auto;         /* Center the container */
+    border-radius: 10px;    /* Optional rounded corners */
+    position: relative;     /* Position the image inside it */
+    overflow: hidden;       /* Hide any part of the image that overflows */
+}
+
+h3{
+    background: none;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+h5{
+    background: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding-left: 12px;
+}
+
+.extra{
+    background: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#edit , #delete{
+    background: none;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#delete{
+    color:#dc3545;
+}
+
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-url img {
+    position: absolute;  /* Position the image absolutely within the container */
+    top: 0;              /* Align the image to the top */
+    left: 0;             /* Align the image to the left */
+    width: 100%;         /* Make the image take full width */
+    height: 100%;        /* Make the image take full height */
+    object-fit: cover;   /* Ensures the image covers the container */
+    object-position: top center; /* Center the image inside the container */
+}
