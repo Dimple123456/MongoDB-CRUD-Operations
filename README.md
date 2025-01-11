@@ -1,1 +1,3 @@
 # MongoDB-CRUD-Operations
+
+This project is a simple CRUD (Create, Read, Update, Delete) application built using Node.js, Express, MongoDB, EJS, HTML, CSS, and JavaScript. The app allows users to add their name, email, and an image URL (e.g., from Google Images) to the database. Users can view, update, and delete the entries stored in MongoDB. The frontend is designed using HTML and styled with CSS, while dynamic content rendering is handled by EJS templates. The application provides a clean interface where users can easily manage their data, and all backend operations are powered by Express.js and MongoDB for seamless data storage and manipulation.
